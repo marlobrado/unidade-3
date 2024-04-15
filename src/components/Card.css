@@ -1,0 +1,21 @@
+.CardDiv {
+    color: black;
+}
+
+.CardList{
+    display: flex;
+    margin: 020;
+    padding: 10;
+    margin-bottom: 15px;
+    width: 400px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+.alunosInfo{
+    margin-left: 15px;
+}
