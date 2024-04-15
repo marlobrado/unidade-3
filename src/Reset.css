@@ -16,9 +16,16 @@ button{
 
 input, select, textarea{
     background: transparent;
-    border: none;
+    /* border: none; */
 }
 
 img{
     max-width: 100%;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    align-items: center;
+    padding-top: 20px;
 }

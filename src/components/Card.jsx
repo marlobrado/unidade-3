@@ -1,10 +1,9 @@
-import { alunos } from '../data/data';
 import './Card.css';
 
-function CardAproveds() {
+const CardAprovados = ({alunosSituacao})=>{
     return (
         <ul className="CardDiv">
-            {alunos.map((aluno) => (
+            {alunosSituacao.map((aluno) => (
                 <li className='CardList' key={aluno.id}>
                     <img src={aluno.img} alt={aluno.name} />
                     <div className='alunosInfo'>
@@ -18,4 +17,6 @@ function CardAproveds() {
     );
 }
 
-export default CardAproveds;
+
+
+export default CardAprovados;
